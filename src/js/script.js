@@ -35,3 +35,11 @@ const precoFinal= precoProduto *(1-desconto);
 console.log(precoFinal);
 //``templete string - concatenação
 console.log(`R$${precoFinal.toFixed(2)}`);
+
+//dim(dicument object model)
+
+const Titulo=document.getElementById("titulo")
+
+Titulo.innerText= "O DOM mudou o texto";
+
+Titulo.style.color="blue";
